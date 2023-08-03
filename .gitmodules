@@ -1,0 +1,6 @@
+[submodule "backend"]
+	path = backend
+	url = git@github.com:Code-Society-Lab/cursif-backend.git
+[submodule "frontend"]
+	path = frontend
+	url = git@github.com:Code-Society-Lab/cursif-frontend.git
