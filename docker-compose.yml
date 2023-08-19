@@ -1,0 +1,25 @@
+version: '3.9'
+
+services:
+  postgres:
+    image: "${POSTGRES_IMAGE:-.env POSTGRES_IMAGE needs to be set}"
+    volumes:
+      - cursif-data:/var/lib/postgresql/data
+    env_file:
+      - .env
+  
+  backend:
+    build:
+      context: ./backend
+      dockerfile: Dockerfile
+    volumes:
+      - ./backend:/app/
+    ports:
+      - 4000:4000
+    depends_on:
+      - postgres
+    env_file:
+      - .env
+
+volumes:
+  cursif-data:
