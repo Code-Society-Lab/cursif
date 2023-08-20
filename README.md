@@ -17,6 +17,9 @@ git submodule update --init --recursive
 
 - Install [Docker](https://docs.docker.com/get-docker/)
 - Install [Docker Compose](https://docs.docker.com/compose/install/)
+- Execute `docker compose up`
+
+You can now access the backend on [`http://localhost:4000`](http://localhost:4000) and the frontend on [`http://localhost:8080`](http://localhost:8080).
 
 ### Manual
 
