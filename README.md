@@ -19,11 +19,11 @@ git submodule update --init --recursive
 - Install [Docker Compose](https://docs.docker.com/compose/install/)
 - Execute `docker compose up`
 
-You can now access the backend on [`http://localhost:4000`](http://localhost:4000) and the frontend on [`http://localhost:8080`](http://localhost:8080).
+You can now access the backend on [`http://localhost:4000`](http://localhost:4000) and the frontend on [`http://localhost:8081`](http://localhost:8081).
 
 ### Manual
 
 - Install [Postgresql](https://www.postgresql.org/download/).
 
 - [Frontend](https://github.com/Code-Society-Lab/cursif-backend#getting-started).
-- [Backend](https://github.com/Code-Society-Lab/cursif-frontend#getting-started).
+- [Backend](https://github.com/Code-Society-Lab/cursif-react#getting-started).
