@@ -27,12 +27,12 @@ services:
 
   frontend:
     build:
-      context: ./frontend
+      context: ./web
       dockerfile: Dockerfile
     volumes:
-      - ./frontend:/app/
-    ports: 
-      - 8081:8081
+      - ./web:/app/
+    ports:
+      - 3000:3000
     depends_on:
       - backend
     env_file:

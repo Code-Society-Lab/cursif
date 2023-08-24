@@ -6,4 +6,4 @@
 	url = git@github.com:Code-Society-Lab/cursif-mobile.git
 [submodule "web"]
 	path = web
-	url = https://github.com/Code-Society-Lab/cursif-web
+	url = git@github.com:Code-Society-Lab/cursif-web.git
