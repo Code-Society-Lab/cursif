@@ -13,6 +13,10 @@ git clone https://.../cursif.git
 git submodule update --init --recursive
 ```
 
+### .env
+- In the root directory, create a new file named `.env`.
+- Copy the content of `.env.example` into your `.env` 
+
 ### Docker (recommended)
 
 - Install [Docker](https://docs.docker.com/get-docker/)
