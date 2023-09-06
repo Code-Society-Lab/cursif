@@ -2,12 +2,12 @@ version: '3.9'
 
 services:
   postgres:
-    image: "${POSTGRES_IMAGE:- postgres:15.3-bookworm}"
+    image: "${POSTGRES_IMAGE:-postgres:15.3-bookworm}"
     volumes:
       - cursif-data:/var/lib/postgresql/data
     environment:
-      POSTGRES_USER: "${POSTGRES_USER-postgres}"
-      POSTGRES_PASSWORD: "${POSTGRES_PASSWORD-postgres}"
+      POSTGRES_USER: "${POSTGRES_USER:-postgres}"
+      POSTGRES_PASSWORD: "${POSTGRES_PASSWORD:-postgres}"
       POSTGRES_HOST: "${POSTGRES_HOST:-localhost}"
       POSTGRES_PORT: "${POSTGRES_PORT:-5432}"
       POSTGRES_DB: "${POSTGRES_DB:-cursif_dev}"
