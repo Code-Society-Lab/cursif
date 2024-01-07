@@ -1,9 +1,6 @@
 [submodule "backend"]
 	path = backend
 	url = git@github.com:Code-Society-Lab/cursif-backend.git
-[submodule "mobile"]
-	path = mobile
-	url = git@github.com:Code-Society-Lab/cursif-mobile.git
 [submodule "web"]
 	path = web
 	url = git@github.com:Code-Society-Lab/cursif-web.git
