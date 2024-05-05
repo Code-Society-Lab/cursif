@@ -1,5 +1,7 @@
 <h1 align="center">Cursif</h1>
 
+Cursif is yet another note-taking application that adds an exciting twist to your productivity. Unlike conventional tools, Cursif empowers you with scriptable notes, allowing you to craft personalized macros for streamlined note automation.
+
 <div align="center">
   <a href="https://discord.gg/code-society-823178343943897088">
     <img src="https://discordapp.com/api/guilds/823178343943897088/widget.png?style=shield" alt="Join on Discord">
@@ -27,37 +29,58 @@
   </a>
 </div>
 
-Cursif is yet another note-taking application that adds an exciting twist to your productivity. Unlike conventional tools, Cursif empowers you with scriptable notes, allowing you to craft personalized macros for streamlined note automation.
+## Introduction
+
+Cursif redefines the note-taking experience by allowing users to harness the power of scripting to automate repetitive tasks and create custom workflows. Whether you're a developer, student, or business professional, Cursif empowers you to take control of your notes like never before.
+
+## Features
+
+- Scriptable notes for automating tasks
+- Easy-to-use interface for creating and managing notes
+- Cross-platform compatibility (officially supports Linux)
+- Secure and private note storage
+- And much more!
 
 ## How to Install
-
 > ⚠️ Cursif officially supports Linux only. Although it should work on Windows and MacOS, it could have unexpected behavior or errors.
 
+### Docker (Recommended)
 
-Start by pulling the repository and updating the submodules.
+1. Install [Docker](https://docs.docker.com/get-docker/) and [Docker Compose](https://docs.docker.com/compose/install/).
+2. Clone the repository: `git clone https://.../cursif.git`.
+3. Update submodules: `git submodule update --init --recursive`.
+4. Create a `.env` file in the root directory and copy the contents of `.env.example` into it.
+5. Run `docker-compose up`.
+6. Access the backend at [http://localhost:4000](http://localhost:4000) and the frontend at [http://localhost:3000](http://localhost:3000).
 
-```bash
-git clone https://.../cursif.git
-git submodule update --init --recursive
-```
+### Manual Installation
 
-### .env
-- In the root directory, create a new file named `.env`.
+1. Install [PostgreSQL](https://www.postgresql.org/download/).
+2. Follow the installation instructions for the [frontend](https://github.com/Code-Society-Lab/cursif-web#getting-started) and [backend](https://github.com/Code-Society-Lab/cursif-backend#getting-started).
+
+## Configuration
+
+Before running Cursif, please make sure that you configure any necessary environment variables and settings. 
+- Create a new file named `.env` in the root directory.
 - Copy the content of `.env.example` into your `.env` 
 
-### Docker (recommended)
-You can run the application using Docker and Docker Compose. This is the recommended way to run the application.
-Docker will take care of the database, backend, and frontend setup.
+## Usage
 
-- Install [Docker](https://docs.docker.com/get-docker/)
-- Install [Docker Compose](https://docs.docker.com/compose/install/)
-- Execute `docker-compose up`
+Once installed, start exploring Cursif's features by visiting the [frontend](http://localhost:3000) and if needed the [backend](http://localhost:4000) in your browser.
+You can try the app by creating a new account or using the dev user with the following credentials:
+```
+Email   : dev@example.com
+Pasword : Password1234
+```
 
-You can now access the backend on [`http://localhost:4000`](http://localhost:4000) and the frontend on [`http://localhost:3000`](http://localhost:3000).
+## Contributing
 
-### Manual
+We welcome contributions from the community! If you'd like to contribute to Cursif, please review our [contributing guidelines](CONTRIBUTING.md) for more information.
 
-- Install [Postgresql](https://www.postgresql.org/download/).
+## License
 
-- [Frontend](https://github.com/Code-Society-Lab/cursif-web#getting-started).
-- [Backend](https://github.com/Code-Society-Lab/cursif-backend#getting-started).
+Cursif is licensed under the [GPL 3.0](LICENSE) license. By using this software, you agree to comply with the terms and conditions of this license.
+
+---
+
+Feel free to join our [Discord server](https://discord.gg/code-society-823178343943897088) to connect with other users and contributors!
