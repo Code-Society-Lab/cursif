@@ -1,4 +1,32 @@
-# Cursif
+<h1 align="center">Cursif</h1>
+
+<div align="center">
+  <a href="https://discord.gg/code-society-823178343943897088">
+    <img src="https://discordapp.com/api/guilds/823178343943897088/widget.png?style=shield" alt="Join on Discord">
+  </a>
+  <a href="https://opensource.org/licenses/gpl-3.0">
+    <img src="https://img.shields.io/badge/License-GPL%203.0-blue.svg" alt="License">
+  </a>
+  <a href="https://github.com/code-society-lab/cursif/commits/main">
+    <img src="https://img.shields.io/github/last-commit/code-society-lab/cursif.svg" alt="Last Updated">
+  </a>
+  <a href="https://hexdocs.pm/elixir/Kernel.html">
+    <img src="https://img.shields.io/badge/Elixir-1.14.3-4e2a8e" alt="Elixir">
+  </a>
+  <a href="https://hexdocs.pm/phoenix/overview.html">
+    <img src="https://img.shields.io/badge/Phoenix-1.6.15-ff6f61" alt="Phoenix">
+  </a>
+  <a href="https://www.typescriptlang.org/">
+    <img src="https://img.shields.io/badge/TypeScript-5.4.5-blue" alt="TypeScript">
+  </a>
+  <a href="https://nextjs.org/">
+    <img src="https://img.shields.io/badge/Next.JS-13.5.6-black" alt="Next.JS">
+  </a>
+  <a href="https://www.postgresql.org/">
+    <img src="https://img.shields.io/badge/PostgreSQL-15.3-008bb9" alt="PostgreSQL">
+  </a>
+</div>
+
 Cursif is yet another note-taking application that adds an exciting twist to your productivity. Unlike conventional tools, Cursif empowers you with scriptable notes, allowing you to craft personalized macros for streamlined note automation.
 
 ## How to Install
