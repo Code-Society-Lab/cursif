@@ -66,7 +66,7 @@ Before running Cursif, please make sure that you configure any necessary environ
 
 ## Usage
 
-Once installed, start exploring Cursif's features by visiting the [frontend](http://localhost:3000) and if needed the [backend](http://localhost:4000) in your browser.
+Once installed, start exploring Cursif's features by visiting the [http://localhost:3000](http://localhost:3000) and if needed the [http://localhost:4000](http://localhost:4000) in your browser.
 You can try the app by creating a new account or using the dev user with the following credentials:
 ```
 Email   : dev@example.com
