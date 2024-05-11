@@ -47,11 +47,14 @@ Cursif redefines the note-taking experience by allowing users to harness the pow
 ### Docker (Recommended)
 
 1. Install [Docker](https://docs.docker.com/get-docker/) and [Docker Compose](https://docs.docker.com/compose/install/).
-2. Clone the repository: `git clone https://.../cursif.git`.
-3. Update submodules: `git submodule update --init --recursive`.
-4. Create a `.env` file in the root directory and copy the contents of `.env.example` into it.
-5. Run `docker-compose up`.
-6. Access the backend at [http://localhost:4000](http://localhost:4000) and the frontend at [http://localhost:3000](http://localhost:3000).
+2. Clone the repository and update the submodule:
+   ```bash
+   git clone https://.../cursif.git
+   git submodule update --init --recursive
+   ```
+3. Create a `.env` file in the root directory and copy the contents of `.env.example` into it.
+4. Run `docker-compose up`.
+5. Access the backend at [http://localhost:4000](http://localhost:4000) and the frontend at [http://localhost:3000](http://localhost:3000).
 
 ### Manual Installation
 
