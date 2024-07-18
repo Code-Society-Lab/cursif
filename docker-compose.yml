@@ -15,7 +15,7 @@ services:
   backend:
     build:
       context: ./backend
-      dockerfile: Dockerfile
+      dockerfile: Dockerfile.dev
     volumes:
       - ./backend:/app/
     ports:
@@ -28,7 +28,7 @@ services:
   web:
     build:
       context: ./web
-      dockerfile: Dockerfile
+      dockerfile: Dockerfile.dev
     volumes:
       - ./web:/app/
     ports:
